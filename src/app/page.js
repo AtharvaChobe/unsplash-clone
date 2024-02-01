@@ -47,7 +47,7 @@ const Page = () => {
         {
           results.map((item) => (
             
-            <a href={item.links.html}><img key={item.id} src={item.urls.regular} alt="" /></a>
+            <a target="_blank" href={item.links.html}><img key={item.id} src={item.urls.regular} alt="" /></a>
               
 
             
